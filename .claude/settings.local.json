@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init *)",
+      "Bash(git config *)",
+      "Bash(npx --yes create-next-app@latest frontend --typescript --tailwind --app --src-dir=false --import-alias \"@/*\" --eslint --use-npm --no-turbopack)",
+      "Bash(npm install *)",
+      "Bash(openssl rand *)",
+      "Bash(npm view *)",
+      "Bash(docker compose *)",
+      "Bash(docker exec *)",
+      "Bash(break)",
+      "Bash(npx prisma *)",
+      "Bash(npx tsx *)",
+      "Bash(mkdir -p /home/leykun/Projects/Beeata_Mariyam_Web_App/frontend/app/api/auth/\\\\[...nextauth\\\\])",
+      "Bash(python3 -c ' *)",
+      "Bash(mkdir -p /home/leykun/Projects/Beeata_Mariyam_Web_App/frontend/app/api/news/\\\\[id\\\\])",
+      "Bash(mkdir -p /home/leykun/Projects/Beeata_Mariyam_Web_App/frontend/app/api/events/\\\\[id\\\\])",
+      "Bash(mkdir -p /home/leykun/Projects/Beeata_Mariyam_Web_App/frontend/app/api/gallery/\\\\[id\\\\])",
+      "Bash(mkdir -p /home/leykun/Projects/Beeata_Mariyam_Web_App/frontend/app/api/materials/\\\\[id\\\\]/download)",
+      "Bash(mkdir -p /home/leykun/Projects/Beeata_Mariyam_Web_App/frontend/app/api/mezmur/\\\\[id\\\\])",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"admin \\(should redirect\\): %{http_code}\\\\n\" -L http://localhost:3000/admin)",
+      "Bash(curl -sL http://localhost:3000/admin/news -o /tmp/test_redirect.html -w \"%{url_effective}\\\\n\")",
+      "Bash(tee /tmp/claude-1001/-home-leykun-Projects-Beeata-Mariyam-Web-App/df1acfd1-d96d-4239-9007-70395dc0b8e1/scratchpad/build.log)",
+      "Bash(tee /tmp/claude-1001/-home-leykun-Projects-Beeata-Mariyam-Web-App/df1acfd1-d96d-4239-9007-70395dc0b8e1/scratchpad/dev5.log)",
+      "Bash(curl -s http://localhost:3000/)"
+    ],
+    "additionalDirectories": [
+      "/home/leykun/Projects/Beeata_Mariyam_Web_App/frontend/app/api/auth"
+    ]
+  }
+}

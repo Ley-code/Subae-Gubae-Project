@@ -1,0 +1,279 @@
+{
+  "site": {
+    "name": "መሠረተ ሃይማኖት",
+    "nameFull": "ታዕካ ነገሥት በአታ ለማርያም ገዳም መሠረተ ሃይማኖት ሰንበት ት/ቤት",
+    "tagline": "የሰንበት ት/ቤት",
+    "motto": "ሃይማኖትን እንደ አባቶቻችን፣ ጥበብን እንደ ገዜያችን"
+  },
+  "nav": {
+    "home": "መነሻ",
+    "about": "ስለ እኛ",
+    "history": "ታሪክ",
+    "news": "ዜናዎች",
+    "events": "መርሐ ግብር",
+    "gallery": "ምስሎች",
+    "articles": "መንፈሳዊ ትምህርቶች",
+    "mezmur": "መዝሙር",
+    "materials": "የትምህርት ማዕከል",
+    "register": "ይመዝገቡ",
+    "forum": "መድረክ",
+    "donate": "ይለግሱ",
+    "login": "ግቡ"
+  },
+  "home": {
+    "heroEyebrow": "ኦርቶዶክስ ተዋሕዶ",
+    "heroTitle1": "ታዕካ ነገሥት",
+    "heroTitle2": "በአታ ለማርያም",
+    "heroSubtitle": "መሠረተ ሃይማኖት ሰንበት ትምህርት ቤት",
+    "heroDescription": "የክርስቶስን ትምህርት፣ የቅዱሳንን ታሪክ እና የቅድስት ቤተ ክርስቲያንን መንፈሳዊ ውርስ ለልጆቻችን እና ለወጣቶቻችን የምናስተላልፍበት፣ የጸሎት፣ የትምህርት እና የመዝሙር ማዕከል።",
+    "ctaProgram": "የሰንበት መርሐ ግብር",
+    "ctaRegister": "ተማሪ ይሁኑ",
+    "welcomeEyebrow": "የእንኳን ደህና መጡ ቃል",
+    "welcomeTitle": "እንኳን ደህና መጡ",
+    "welcomeP1": "ወደዚህ ደጅ የገባ ሁሉ የተባረከ ይሁን። ሰንበት ትምህርት ቤታችን ልጆች እና ወጣቶች መጻሕፍተ ቅዱሳትን፣ የቅዱሳንን ገድል፣ ፊደላትን እና የቅዱስ ያሬድን ዜማ የሚማሩበት መንፈሳዊ ቤት ነው። ለአስራ ሰባት መቶ ዓመታት ያልተቋረጠ ሃይማኖትን ወደፊት እናስተላልፋለን።",
+    "welcomeP2": "እዚህ ወጣቶች በጸሎት፣ በትህትና እና በፍቅር ይታነጻሉ፤ ለነገው ቤተ ክርስቲያን ሕያዋን ድንጋዮች ሆነው እንዲቆሙ።",
+    "welcomeVerse": "ሕፃናትን ወደ እኔ ይምጡ አትከልክሏቸው። — ማርቆስ 10:14",
+    "kidaseEyebrow": "ቅዱስ ቅዳሴ",
+    "kidaseTitle": "ቅዳሴ",
+    "kidaseP1": "ካህኑ ወርቃማውን ጥና በሚያውዘውዘው ጊዜ፣ መዓዛ ያለው ጢስ ከመሠዊያው ፊት ይወጣል፤ የምዕመናንን ጸሎት ወደ እግዚአብሔር ፊት የሚያሸጋግር የጸሎት መጋረጃ። በግዕዝ ዜማ ሰማይና ምድር ይተባበራሉ።",
+    "kidaseP2": "ተማሪዎቻችን ማገልገልን፣ የቅዳሴ ምላሾችን መዘመርን እና በቅዱሳት ምስጢራት ፊት ዝምታን መጠበቅን ይማራሉ።",
+    "kidaseVerse": "ጸሎቴ በፊትህ እንደ እጣን ትሁን፤ የእጆቼ መዘርጋትም እንደ ማታ መስዋዕት። — መዝሙር 141:2",
+    "mezmurEyebrow": "ውዳሴ እና መንፈሳዊ ዜማ",
+    "mezmurTitle": "መዝሙር",
+    "mezmurP1": "በከበሮ ምት እና በጸናጽል ድምጽ፣ መዘምራኑ ከቅዱስ ያሬድ የተወረሱ ዝማሬዎችን በድምጻቸው ያቀርባሉ። ወጣቶች ነጭ ነጠላ ለብሰው በዘፈንና በቅዱስ ውዳሴ እግዚአብሔርን ያመሰግናሉ።",
+    "mezmurP2": "አዳዲስ ድምጻውያን ሁሌም እንኳን ደህና መጡ። መጥተው መዝሙር ይማሩ፣ ውዳሴያችሁም ከእኛ ጋር ይነሳ።",
+    "mezmurStat1Num": "40+",
+    "mezmurStat1Label": "ወጣት መዘምራን",
+    "mezmurStat2Num": "1500",
+    "mezmurStat2Label": "ዓመታት የያሬዳዊ ዜማ",
+    "programEyebrow": "ሦስት ምሰሶዎች · የሰንበት መርሐ ግብር",
+    "programTitle": "የሰንበት መርሐ ግብር",
+    "pillar1Title": "ጸሎት",
+    "pillar1Time": "ከጠዋቱ 12:00",
+    "pillar1Desc": "ቀኑ በንጋት ጸሎት እና በቅዳሴ ይጀምራል፤ ወጣቶች በአክብሮት በመሠዊያው ፊት ይሰበሰባሉ።",
+    "pillar2Title": "ትምህርት",
+    "pillar2Time": "ከጠዋቱ 3:00",
+    "pillar2Desc": "የመጻሕፍተ ቅዱሳት፣ የቤተ ክርስቲያን ታሪክ፣ የፊደል እና የቅዱሳን ገድል ትምህርቶች፤ በእድሜ ደረጃ ተከፍለው ይሰጣሉ።",
+    "pillar3Title": "መዝሙር",
+    "pillar3Time": "ከጠዋቱ 5:30",
+    "pillar3Desc": "የመዘምራን ልምምድ እና የመዝሙር ዝማሬ፤ በልብ የተጠናው የያሬዳዊ ዜማ፣ ከበሮና ጸናጽል በእጅ ይዘው።",
+    "newsTitle": "የቅርብ ጊዜ ዜናዎች",
+    "newsMore": "ሁሉንም ዜናዎች ይመልከቱ",
+    "eventsTitle": "ቀጣይ መርሐ ግብሮች",
+    "eventsMore": "ሁሉንም መርሐ ግብሮች ይመልከቱ",
+    "galleryTitle": "ከህይወታችን",
+    "galleryMore": "ወደ ምስል ማዕከል"
+  },
+  "footer": {
+    "about": "የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተ ክርስቲያን ማኅበረሰብ፤ የሚቀጥለውን ትውልድ በጥንታዊውና ሕያው በሆነው ሃይማኖት የምናንጽበት ገዳም።",
+    "visitUs": "ይጎብኙን",
+    "address": "ታዕካ ነገሥት በአታ ለማርያም ገዳም፣ አዲስ አበባ",
+    "schedule": "በየሳምንቱ እሁድ · ከጠዋቱ 12:00",
+    "email": "info@meseretehaimanot.org",
+    "glory": "ስብሐት ለእግዚአብሔር",
+    "copyright": "መሠረተ ሃይማኖት ሰንበት ትምህርት ቤት"
+  },
+  "history": {
+    "title": "የገዳማችን ታሪክ",
+    "eyebrow": "ትውፊት እና ውርስ"
+  },
+  "news": {
+    "title": "ዜናዎች እና ማስታወቂያዎች",
+    "empty": "እስካሁን የታተመ ዜና የለም።"
+  },
+  "events": {
+    "title": "የመርሐ ግብር ቀን መቁጠሪያ",
+    "upcoming": "ቀጣይ መርሐ ግብሮች",
+    "past": "ያለፉ መርሐ ግብሮች",
+    "empty": "እስካሁን የታቀደ መርሐ ግብር የለም።"
+  },
+  "gallery": {
+    "title": "የምስል ማዕከል",
+    "all": "ሁሉም",
+    "empty": "እስካሁን ምስሎች አልተጨመሩም።"
+  },
+  "articles": {
+    "title": "መንፈሳዊ ትምህርቶች እና የቅዱሳን ታሪክ",
+    "empty": "እስካሁን የታተመ ትምህርት የለም።"
+  },
+  "mezmur": {
+    "title": "የመዝሙር ማዕከል",
+    "listen": "ያዳምጡ",
+    "empty": "እስካሁን መዝሙር አልተጨመረም።"
+  },
+  "materials": {
+    "title": "የትምህርት ማዕከል",
+    "filterLabel": "በክፍል ያጣሩ",
+    "allGrades": "ሁሉም ክፍሎች",
+    "download": "አውርድ",
+    "empty": "ለተመረጠው ክፍል ምንም ማቴሪያል አልተገኘም።"
+  },
+  "register": {
+    "title": "የተማሪ ምዝገባ",
+    "subtitle": "ለሰንበት ትምህርት ቤታችን ለመመዝገብ ይህን ቅጽ ይሙሉ።",
+    "fullName": "ሙሉ ስም",
+    "dateOfBirth": "የትውልድ ቀን",
+    "gender": "ጾታ",
+    "genderMale": "ወንድ",
+    "genderFemale": "ሴት",
+    "phone": "ስልክ ቁጥር",
+    "email": "ኢሜይል (አማራጭ)",
+    "guardianName": "የወላጅ ስም (ለአካለ መጠን ላልደረሱ)",
+    "guardianPhone": "የወላጅ ስልክ",
+    "classGrade": "የሚፈለግ ክፍል",
+    "address": "አድራሻ",
+    "notes": "ተጨማሪ መረጃ",
+    "submit": "ይመዝገቡ",
+    "submitting": "በመላክ ላይ...",
+    "successTitle": "ምዝገባዎ ተሳክቷል",
+    "successBody": "እግዚአብሔር ይመስገን፤ ምዝገባዎ ደርሶናል። የሰንበት ትምህርት ቤት አስተዳደር በቅርቡ ያገኙዎታል።",
+    "backHome": "ወደ መነሻ ገጽ ይመለሱ",
+    "error": "ይቅርታ፣ ችግር ተፈጥሯል። እባክዎ እንደገና ይሞክሩ።"
+  },
+  "forum": {
+    "title": "የውይይት መድረክ",
+    "comingSoon": "የውይይት መድረካችን በቅርቡ ይከፈታል። መንፈሳዊ፣ ስነ ምግባራዊ እና የትምህርተ ሃይማኖት ጥያቄዎችን ከመምህራን እና ተማሪዎች ጋር የሚወያዩበት ቦታ ይሆናል።"
+  },
+  "donate": {
+    "title": "ይለግሱ",
+    "intro": "ገዳማችንን እና ሰንበት ትምህርት ቤታችንን በልግስናዎ ይደግፉ። የመስመር ላይ ክፍያ ሥርዓት በቅርቡ ይጀመራል፤ ለአሁኑ የሚከተሉትን አማራጮች ይጠቀሙ፦",
+    "telebirr": "ቴሌብር",
+    "bank": "የባንክ ሂሳብ",
+    "interestTitle": "ፍላጎትዎን ያሳውቁን",
+    "interestBody": "ስምዎን እና የመገናኛ አድራሻዎን ትተው ሲዘጋጅ የመስመር ላይ ክፍያ ሲጀመር እናሳውቅዎታለን።",
+    "name": "ስም",
+    "amount": "የፈለጉት መጠን (ብር)",
+    "submit": "ላክ",
+    "thanks": "እናመሰግናለን፤ ፍላጎትዎ ተመዝግቧል።"
+  },
+  "admin": {
+    "login": {
+      "title": "የአስተዳዳሪ መግቢያ",
+      "email": "ኢሜይል",
+      "password": "የይለፍ ቃል",
+      "submit": "ግባ",
+      "error": "ኢሜይል ወይም የይለፍ ቃል ትክክል አይደለም።"
+    },
+    "nav": {
+      "dashboard": "ዳሽቦርድ",
+      "news": "ዜናዎች",
+      "events": "መርሐ ግብሮች",
+      "gallery": "ምስሎች",
+      "materials": "ትምህርት ማዕከል",
+      "mezmur": "መዝሙር",
+      "articles": "መንፈሳዊ ትምህርቶች",
+      "registrations": "ምዝገባዎች",
+      "members": "አባላት",
+      "logout": "ውጣ",
+      "viewSite": "ድረ ገጹን ይመልከቱ"
+    },
+    "dashboard": {
+      "title": "ዳሽቦርድ",
+      "pendingRegistrations": "በመጠባበቅ ላይ ያሉ ምዝገባዎች",
+      "publishedNews": "የታተሙ ዜናዎች",
+      "upcomingEvents": "ቀጣይ መርሐ ግብሮች"
+    },
+    "common": {
+      "create": "አዲስ ጨምር",
+      "edit": "አርትዕ",
+      "delete": "ሰርዝ",
+      "save": "አስቀምጥ",
+      "cancel": "ይቅር",
+      "published": "ታትሟል",
+      "draft": "ረቂቅ",
+      "confirmDelete": "እርግጠኛ ነዎት መሰረዝ ይፈልጋሉ?",
+      "title": "ርዕስ",
+      "actions": "ተግባራት",
+      "status": "ሁኔታ",
+      "date": "ቀን",
+      "back": "ተመለስ",
+      "saving": "በማስቀመጥ ላይ...",
+      "newTitle": "አዲስ አክል",
+      "editTitle": "አርትዕ",
+      "empty": "እስካሁን ምንም አልተጨመረም።",
+      "error": "ይቅርታ፣ ችግር ተፈጥሯል። እባክዎ እንደገና ይሞክሩ።",
+      "category": "ምድብ",
+      "none": "—"
+    },
+    "fields": {
+      "slug": "መለያ (Slug)",
+      "slugHint": "ለምሳሌ: my-news-title (እንግሊዝኛ ፊደላት፣ ቁጥሮች እና ጭረት ብቻ)",
+      "body": "ይዘት",
+      "coverImage": "የሽፋን ምስል",
+      "description": "መግለጫ",
+      "location": "ቦታ",
+      "startsAt": "መጀመሪያ ሰዓት",
+      "endsAt": "መጨረሻ ሰዓት (አማራጭ)",
+      "mediaType": "የሚዲያ አይነት",
+      "mediaTypeImage": "ምስል",
+      "mediaTypeVideo": "ቪዲዮ",
+      "url": "ፋይል",
+      "thumbnailUrl": "አነስተኛ ምስል (Thumbnail)",
+      "classGrade": "የክፍል ደረጃ",
+      "fileType": "የፋይል አይነት",
+      "fileUrl": "ፋይል",
+      "fileSizeKb": "የፋይል መጠን (ኪ.ባ.)",
+      "lyrics": "ግጥም",
+      "audioUrl": "የድምጽ ፋይል (አማራጭ)"
+    },
+    "news": {
+      "listTitle": "ዜናዎች",
+      "formTitleNew": "አዲስ ዜና",
+      "formTitleEdit": "ዜና አርትዕ"
+    },
+    "events": {
+      "listTitle": "መርሐ ግብሮች",
+      "formTitleNew": "አዲስ መርሐ ግብር",
+      "formTitleEdit": "መርሐ ግብር አርትዕ"
+    },
+    "gallery": {
+      "listTitle": "ምስሎች",
+      "formTitleNew": "አዲስ ምስል ጨምር",
+      "preview": "ቅድመ እይታ"
+    },
+    "materials": {
+      "listTitle": "የትምህርት ማዕከል",
+      "formTitleNew": "አዲስ ማቴሪያል",
+      "formTitleEdit": "ማቴሪያል አርትዕ",
+      "fileTypePdf": "ፒዲኤፍ",
+      "fileTypeDoc": "ሰነድ",
+      "fileTypeAudio": "ድምጽ",
+      "fileTypeVideo": "ቪዲዮ",
+      "fileTypeOther": "ሌላ"
+    },
+    "mezmur": {
+      "listTitle": "መዝሙር",
+      "formTitleNew": "አዲስ መዝሙር",
+      "formTitleEdit": "መዝሙር አርትዕ"
+    },
+    "articles": {
+      "listTitle": "መንፈሳዊ ትምህርቶች",
+      "formTitleNew": "አዲስ ትምህርት",
+      "formTitleEdit": "ትምህርት አርትዕ"
+    },
+    "registrations": {
+      "listTitle": "ምዝገባዎች",
+      "fullName": "ሙሉ ስም",
+      "phone": "ስልክ",
+      "classGrade": "ክፍል",
+      "createdAt": "የተመዘገበበት ቀን",
+      "all": "ሁሉም",
+      "statusPending": "በመጠባበቅ ላይ",
+      "statusReviewed": "ታይቷል",
+      "statusApproved": "ጸድቋል",
+      "statusRejected": "ውድቅ ሆኗል",
+      "exportCsv": "CSV አውርድ",
+      "empty": "እስካሁን ምዝገባ የለም።"
+    },
+    "members": {
+      "listTitle": "አባላት",
+      "name": "ስም",
+      "email": "ኢሜይል",
+      "role": "ሚና",
+      "createdAt": "የተቀላቀሉበት ቀን",
+      "roleAdmin": "አስተዳዳሪ",
+      "roleTeacher": "መምህር",
+      "empty": "እስካሁን አባል የለም።"
+    }
+  }
+}

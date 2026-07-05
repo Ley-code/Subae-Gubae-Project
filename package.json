@@ -1,0 +1,23 @@
+{
+  "name": "meserete-haimanot",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace frontend",
+    "build": "npm run build --workspace frontend",
+    "db:migrate": "prisma migrate dev --schema=backend/prisma/schema.prisma",
+    "db:deploy": "prisma migrate deploy --schema=backend/prisma/schema.prisma",
+    "db:seed": "npm run db:seed --workspace backend",
+    "db:studio": "prisma studio --schema=backend/prisma/schema.prisma",
+    "create-admin": "npm run create-admin --workspace backend"
+  },
+  "devDependencies": {
+    "prisma": "^6.1.0"
+  },
+  "overrides": {
+    "zod": "^3.24.1"
+  }
+}

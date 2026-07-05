@@ -1,0 +1,201 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  ADMIN
+  TEACHER
+  MEMBER
+}
+
+enum RegistrationStatus {
+  PENDING
+  REVIEWED
+  APPROVED
+  REJECTED
+}
+
+enum MediaType {
+  IMAGE
+  VIDEO
+}
+
+enum MaterialFileType {
+  PDF
+  DOC
+  AUDIO
+  VIDEO
+  OTHER
+}
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  passwordHash String
+  name         String
+  role         Role     @default(MEMBER)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  newsPosts    News[]
+  events       Event[]
+  materials    EducationalMaterial[]
+  articles     Article[]
+  forumThreads ForumThread[]
+  forumPosts   ForumPost[]
+
+  @@map("users")
+}
+
+model Registration {
+  id            String             @id @default(cuid())
+  fullName      String
+  dateOfBirth   DateTime?
+  gender        String?
+  phone         String
+  email         String?
+  guardianName  String?
+  guardianPhone String?
+  classGrade    String?
+  address       String?
+  notes         String?
+  status        RegistrationStatus @default(PENDING)
+  createdAt     DateTime           @default(now())
+  reviewedAt    DateTime?
+
+  @@map("registrations")
+}
+
+model News {
+  id          String    @id @default(cuid())
+  slug        String    @unique
+  title       String
+  body        String    @db.Text
+  coverImage  String?
+  published   Boolean   @default(false)
+  publishedAt DateTime?
+  authorId    String?
+  author      User?     @relation(fields: [authorId], references: [id])
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  @@map("news")
+}
+
+model Event {
+  id          String    @id @default(cuid())
+  slug        String    @unique
+  title       String
+  description String    @db.Text
+  location    String?
+  startsAt    DateTime
+  endsAt      DateTime?
+  coverImage  String?
+  published   Boolean   @default(false)
+  authorId    String?
+  author      User?     @relation(fields: [authorId], references: [id])
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  @@map("events")
+}
+
+model GalleryItem {
+  id           String    @id @default(cuid())
+  title        String?
+  mediaType    MediaType @default(IMAGE)
+  url          String
+  thumbnailUrl String?
+  category     String?
+  takenAt      DateTime?
+  createdAt    DateTime  @default(now())
+
+  @@map("gallery_items")
+}
+
+model EducationalMaterial {
+  id           String           @id @default(cuid())
+  title        String
+  description  String?          @db.Text
+  classGrade   String
+  fileType     MaterialFileType
+  fileUrl      String
+  fileSizeKb   Int?
+  uploadedById String?
+  uploadedBy   User?            @relation(fields: [uploadedById], references: [id])
+  createdAt    DateTime         @default(now())
+
+  @@map("educational_materials")
+}
+
+model Hymn {
+  id        String   @id @default(cuid())
+  slug      String   @unique
+  title     String
+  lyrics    String   @db.Text
+  audioUrl  String?
+  category  String?
+  createdAt DateTime @default(now())
+
+  @@map("hymns")
+}
+
+model Article {
+  id         String    @id @default(cuid())
+  slug       String    @unique
+  title      String
+  body       String    @db.Text
+  coverImage String?
+  category   String?
+  published  Boolean   @default(false)
+  authorId   String?
+  author     User?     @relation(fields: [authorId], references: [id])
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+
+  @@map("articles")
+}
+
+// --- Scaffold-only models (data model ready, minimal UI/logic on top) ---
+
+model ForumThread {
+  id        String      @id @default(cuid())
+  title     String
+  authorId  String?
+  author    User?       @relation(fields: [authorId], references: [id])
+  posts     ForumPost[]
+  createdAt DateTime    @default(now())
+
+  @@map("forum_threads")
+}
+
+model ForumPost {
+  id        String      @id @default(cuid())
+  threadId  String
+  thread    ForumThread @relation(fields: [threadId], references: [id], onDelete: Cascade)
+  authorId  String?
+  author    User?       @relation(fields: [authorId], references: [id])
+  body      String      @db.Text
+  createdAt DateTime    @default(now())
+
+  @@map("forum_posts")
+}
+
+model DonationIntent {
+  id        String   @id @default(cuid())
+  donorName String?
+  email     String?
+  phone     String?
+  amount    Decimal? @db.Decimal(10, 2)
+  currency  String   @default("ETB")
+  purpose   String?
+  status    String   @default("pending")
+  createdAt DateTime @default(now())
+
+  @@map("donation_intents")
+}
