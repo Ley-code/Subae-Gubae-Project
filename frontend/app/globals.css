@@ -57,6 +57,8 @@ body {
   background: var(--color-parchment);
   color: var(--color-ink);
   font-family: var(--font-cardo);
+  font-size: 18px;
+  line-height: 1.7;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
   cursor: url("/textures/cur-arrow.png") 3 3, auto;
@@ -307,7 +309,7 @@ img {
   float: left;
   font-family: var(--font-garamond);
   font-weight: 700;
-  font-size: 76px;
+  font-size: 88px;
   line-height: 0.72;
   padding: 8px 14px 0 0;
   color: var(--color-primary-600);

@@ -46,12 +46,12 @@ export default function ProgramPillars() {
     >
       <div className="mx-auto max-w-[1120px] px-8">
         <RevealOnScroll className="mb-11 text-center">
-          <div className="mb-2 font-fell text-[13px] tracking-[.2em] text-primary-600">
+          <div className="mb-2 font-fell text-[14px] tracking-[.2em] text-primary-600">
             {t("programEyebrow")}
           </div>
           <h2
             className="m-0 font-ethiopic font-bold"
-            style={{ fontSize: "clamp(30px,4.4vw,50px)", color: "var(--color-primary-700)" }}
+            style={{ fontSize: "clamp(32px,4.6vw,52px)", color: "var(--color-primary-700)" }}
           >
             {t("programTitle")}
           </h2>
@@ -72,16 +72,16 @@ export default function ProgramPillars() {
                   <CrossIcon className="h-full w-full" />
                 </div>
                 <h3
-                  className="mb-1 font-ethiopic text-[26px] font-bold"
+                  className="mb-1 font-ethiopic text-[28px] font-bold"
                   style={{ color: "var(--color-primary-700)" }}
                 >
                   {t(`pillar${key}Title`)}
                 </h3>
-                <div className="mb-3 font-fell text-xs tracking-[.14em]" style={{ color }}>
+                <div className="mb-3 font-fell text-sm tracking-[.14em]" style={{ color }}>
                   {t(`pillar${key}Time`)}
                 </div>
                 <p
-                  className="m-0 font-cardo text-[17px]"
+                  className="m-0 font-cardo text-[18px]"
                   style={{ lineHeight: 1.7, color: "var(--color-ink-soft)" }}
                 >
                   {t(`pillar${key}Desc`)}

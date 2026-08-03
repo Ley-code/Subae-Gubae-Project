@@ -30,7 +30,7 @@ export default function NewsTeaser({ items }: NewsTeaserProps) {
         <RevealOnScroll className="mb-8 flex items-end justify-between gap-4">
           <h2
             className="m-0 font-ethiopic font-bold"
-            style={{ fontSize: "clamp(26px,3.6vw,40px)", color: "var(--color-primary-700)" }}
+            style={{ fontSize: "clamp(28px,3.8vw,44px)", color: "var(--color-primary-700)" }}
           >
             {t("newsTitle")}
           </h2>

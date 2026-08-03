@@ -17,8 +17,8 @@ function CrossIcon({ className }: { className?: string }) {
 }
 
 /**
- * "እንኳን ደህና መጡ" welcome section — drop-cap first paragraph paired with a
- * FramedImage of the church grounds.
+ * "እንኳን ደህና መጡ" welcome section — drop-cap first paragraph paired with
+ * real photos of the church grounds and clergy procession.
  */
 export default function AboutWelcome() {
   const t = useTranslations("home");
@@ -30,24 +30,24 @@ export default function AboutWelcome() {
     >
       <div className="mx-auto flex max-w-[1120px] flex-wrap items-center gap-8 px-8 md:gap-14">
         <RevealOnScroll className="min-w-[290px] flex-[1_1_360px]">
-          <div className="mb-1.5 font-fell text-[13px] tracking-[.2em] text-primary-600">
+          <div className="mb-1.5 font-fell text-[14px] tracking-[.2em] text-primary-600">
             {t("welcomeEyebrow")}
           </div>
           <h2
             className="mb-5 font-ethiopic font-bold leading-[1.1]"
-            style={{ fontSize: "clamp(30px,4vw,46px)", color: "var(--color-primary-700)" }}
+            style={{ fontSize: "clamp(32px,4.2vw,50px)", color: "var(--color-primary-700)" }}
           >
             {t("welcomeTitle")}
           </h2>
           <p
             className="drop-cap mb-4 font-cardo"
-            style={{ fontSize: "clamp(17px,1.9vw,20px)", lineHeight: 1.75, color: "var(--color-ink-soft)" }}
+            style={{ fontSize: "clamp(18px,2.1vw,22px)", lineHeight: 1.75, color: "var(--color-ink-soft)" }}
           >
             {t("welcomeP1")}
           </p>
           <p
             className="font-cardo"
-            style={{ fontSize: "clamp(17px,1.9vw,20px)", lineHeight: 1.75, color: "var(--color-ink-soft)" }}
+            style={{ fontSize: "clamp(18px,2.1vw,22px)", lineHeight: 1.75, color: "var(--color-ink-soft)" }}
           >
             {t("welcomeP2")}
           </p>
@@ -55,20 +55,26 @@ export default function AboutWelcome() {
             <span className="h-10 w-10 flex-none text-accent-green">
               <CrossIcon className="h-full w-full" />
             </span>
-            <span className="font-garamond text-[19px] italic text-primary-600">
+            <span className="font-garamond text-[21px] italic text-primary-600">
               {t("welcomeVerse")}
             </span>
           </div>
         </RevealOnScroll>
 
-        <RevealOnScroll className="min-w-[270px] flex-[0_1_380px]">
-          <div className="pt-6">
+        <RevealOnScroll className="min-w-[270px] flex-[0_1_420px]">
+          <div className="grid gap-8 pt-6">
             <FramedImage
               src="/images/about/clergy-procession.jpg"
               alt="የገዳሙ ካህናት ሰልፍ"
               borderColor="purple"
               caption="ቤተ ማርያም"
               aspectRatio="4 / 3"
+            />
+            <FramedImage
+              src="/images/about/aerial-grounds-1.jpg"
+              alt="የገዳሙ ሰፊ እይታ"
+              borderColor="gold"
+              aspectRatio="16 / 10"
             />
           </div>
         </RevealOnScroll>

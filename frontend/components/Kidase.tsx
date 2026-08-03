@@ -156,7 +156,7 @@ export default function Kidase() {
               }}
             />
             <div className="relative z-[2]">
-              <div className="mb-3.5 flex items-center gap-3 font-fell text-[13px] tracking-[.22em] text-accent-gold">
+              <div className="mb-3.5 flex items-center gap-3 font-fell text-[14px] tracking-[.22em] text-accent-gold">
                 <span className="h-10 w-[30px] flex-none text-accent-gold">
                   <CrossIcon className="h-full w-full" />
                 </span>
@@ -165,7 +165,7 @@ export default function Kidase() {
               <h2
                 className="mb-4 font-ethiopic font-extrabold leading-none"
                 style={{
-                  fontSize: "clamp(38px,5.5vw,66px)",
+                  fontSize: "clamp(40px,5.8vw,70px)",
                   color: "var(--color-accent-gold-light)",
                   textShadow: "0 2px 18px rgba(0,0,0,.6)",
                 }}
@@ -174,13 +174,13 @@ export default function Kidase() {
               </h2>
               <p
                 className="mb-4 font-cardo"
-                style={{ fontSize: "clamp(17px,1.9vw,20px)", lineHeight: 1.8, color: "var(--color-parchment-dark)" }}
+                style={{ fontSize: "clamp(18px,2.1vw,22px)", lineHeight: 1.8, color: "var(--color-parchment-dark)" }}
               >
                 {t("kidaseP1")}
               </p>
               <p
                 className="mb-6 font-cardo"
-                style={{ fontSize: "clamp(17px,1.9vw,20px)", lineHeight: 1.8, color: "var(--color-primary-300)" }}
+                style={{ fontSize: "clamp(18px,2.1vw,22px)", lineHeight: 1.8, color: "var(--color-primary-300)" }}
               >
                 {t("kidaseP2")}
               </p>
@@ -188,7 +188,7 @@ export default function Kidase() {
                 className="border-l-[3px] py-1.5 pl-5 font-garamond italic"
                 style={{
                   borderColor: "var(--color-accent-gold)",
-                  fontSize: "clamp(19px,2.3vw,25px)",
+                  fontSize: "clamp(20px,2.4vw,26px)",
                   color: "var(--color-accent-gold-light)",
                 }}
               >

@@ -1,5 +1,6 @@
 import { newsRepo, eventsRepo, galleryRepo } from "@meserete/backend";
 import Hero from "@/components/Hero";
+import PhotoStrip from "@/components/PhotoStrip";
 import AboutWelcome from "@/components/AboutWelcome";
 import SectionDivider from "@/components/SectionDivider";
 import Kidase from "@/components/Kidase";
@@ -28,6 +29,7 @@ export default async function Home() {
     <>
       <Hero />
       <SectionDivider />
+      <PhotoStrip />
       <AboutWelcome />
       <Kidase />
       <SectionDivider />
@@ -50,7 +52,7 @@ export default async function Home() {
         }))}
       />
       <GalleryTeaser
-        items={gallery.slice(0, 3).map((g) => ({
+        items={gallery.slice(0, 6).map((g) => ({
           slug: g.id,
           title: g.title ?? g.category ?? "",
           image: g.url,

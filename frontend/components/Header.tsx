@@ -45,16 +45,16 @@ export default function Header() {
             />
           </span>
           <span className="flex flex-col leading-[1.05]">
-            <span className="font-ethiopic text-[16px] font-bold text-parchment">
+            <span className="font-ethiopic text-[17px] font-bold text-parchment">
               {t("site.name")}
             </span>
-            <span className="font-fell text-[11px] tracking-[.16em] text-accent-gold">
+            <span className="font-fell text-[12px] tracking-[.16em] text-accent-gold">
               {t("site.tagline")}
             </span>
           </span>
         </Link>
 
-        <nav className="hidden items-center gap-6 font-ethiopic text-[15px] font-medium md:flex">
+        <nav className="hidden items-center gap-6 font-ethiopic text-[16px] font-medium md:flex">
           {NAV_KEYS.map(([key, href]) => (
             <Link key={key} className="navlink" href={href}>
               {t(`nav.${key}`)}
